@@ -1,0 +1,30 @@
+.sidebar {
+  background-color: rgb(255, 255, 255);
+  z-index: 200;
+  color: black;
+  position: fixed;
+  bottom: 0px;
+  top: 0px;
+  left: -200px;
+  width: 200px;
+  transition: transform .4s;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-button-wrapper {
+  display: flex;
+  justify-content: end;
+}
+
+.close-sidebar-button {
+  border: transparent;
+  background: none;
+  padding: 16px;
+  margin: 0px;
+}
+
+.close-sidebar-icon {
+  margin: 0px;
+  height: 20px;
+}

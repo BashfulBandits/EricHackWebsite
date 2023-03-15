@@ -1,0 +1,14 @@
+body {
+  margin: 0px;
+  background-color: rgb(234, 234, 234);
+  height: 3000px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: white;
+}
+
+p {
+  margin: 0px;
+}
