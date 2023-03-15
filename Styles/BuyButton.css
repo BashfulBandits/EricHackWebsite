@@ -1,0 +1,32 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+.buy-now-button-section-wrapper {
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.214);
+}
+
+.buy-now-button-text {
+  font-size: 20px;
+  padding: 32px 8px;
+  text-align: center;
+}
+
+.buy-now-button {
+  display: block;
+  all: unset;
+  border: transparent;
+  background-color: rgb(65, 164, 222);
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 24px 0px;
+  font-size: 20px;
+  cursor: pointer;
+}

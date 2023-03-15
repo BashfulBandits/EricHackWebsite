@@ -22,6 +22,7 @@
   background: none;
   padding: 16px;
   margin: 0px;
+  cursor: pointer;
 }
 
 .close-sidebar-icon {

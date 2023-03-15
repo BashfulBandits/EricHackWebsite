@@ -17,6 +17,7 @@
   background: none;
   position: absolute;
   left: 8px;
+  cursor: pointer;
 }
 
 .hamburger-icon {
