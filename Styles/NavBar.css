@@ -5,8 +5,8 @@
   position: fixed;
   bottom: 0px;
   top: 0px;
-  left: -200px;
-  width: 200px;
+  left: -250px;
+  width: 250px;
   transition: transform .4s;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,16 @@
 
 .close-button-wrapper {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
+  border-bottom: solid 1px rgb(230, 230, 230);
+}
+
+.pfp {
+  margin: 8px 8px;
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 40px;
 }
 
 .close-sidebar-button {
@@ -28,4 +37,29 @@
 .close-sidebar-icon {
   margin: 0px;
   height: 20px;
+}
+
+
+.main-nav-options {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.buy-now,
+.support,
+.discord,
+.updates {
+  margin-top: 10px;
+}
+
+.buy-now-text,
+.support-text,
+.discord-text,
+.updates-text {
+  font-size: 20px;
+  color: black;
+  text-align: end;
+  margin-right: 20px;
+  text-decoration: none;
 }

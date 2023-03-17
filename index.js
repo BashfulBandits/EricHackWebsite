@@ -20,15 +20,12 @@ const hamburgerMenuButtonAnimationDuration = {
 const moveSidebar = (dia) => {
   const sidebar = document.getElementById('sidebar');
   const hamburgerMenuButton = document.getElementById('hamburger-menu-button');
-  const header = document.getElementById('header')
 
   if (dia === 'open') {
-    sidebar.style.transform = 'translate(200px, 0px)'
-    header.style.transform = 'translate(200px, 0px)'
+    sidebar.style.transform = 'translate(250px, 0px)'
     hamburgerMenuButton.animate(hamburgerMenuButton.style = hamburgerMenuButtonAnimationKeyFrames, hamburgerMenuButtonAnimationDuration);
   } else {
     sidebar.style.transform = 'translate(0px, 0px)'
-    header.style.transform = 'translate(0px, 0px)'
     hamburgerMenuButton.animate(hamburgerMenuButton.style = hamburgerMenuButtonAnimationKeyFramesReverse, hamburgerMenuButtonAnimationDuration);
   }
 };
